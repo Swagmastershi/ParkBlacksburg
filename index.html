@@ -20,6 +20,12 @@
 		
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		
+		<style type = "text/css">
+		
+			body { padding-top: 70px;}
+		
+		</style>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,20 +56,38 @@
 		
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 	
+
+	<!-- Begin page content -->
+	<h1 align="center">Welcome to Park Blacksburg</h1>
+
+
+	<div class="form-group">
+		<label for="usr">Type in your address:</label>
+		<input type="text" class="form-control" id="usr" placeholder="Address">
+	</div>
+	<div class="form-group">
+		<label for="usr">City</label>
+		<input type="text" class="form-control" id="usr" placeholder="City">
+	</div>
+		<div class="form-group">
+		<label for="usr">State</label>
+		<input type="text" class="form-control" id="usr" placeholder="State">
+	</div>
+		<div class="form-group">
+		<label for="usr">Zip Code</label>
+		<input type="text" class="form-control" id="usr" placeholder="Zip Code">
+	</div>
 	
-	
-	<br />
-
-	<p>This is<br/>a test.</p>
-
-
+	<button type="button" class="btn btn-primary">Find Parking!</button>
+		
+		
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -71,10 +95,13 @@
 	
 	</body>
 
+	<hr />
+	
 	<!-- Footer -->
-	<footer>
-	
-	
-	</footer>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted" href="index.html">Park Blacksburg</p>
+      </div>
+    </footer>
 	
 </html>

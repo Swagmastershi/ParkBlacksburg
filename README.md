@@ -1,2 +1,2 @@
 # ParkBlacksburg
-Client-side app to help users determine where they can park in Blacksburg and on the Virginia Tech Campus.
+Client-side website to help users determine where they can park in Blacksburg and on the Virginia Tech Campus.
